@@ -35,6 +35,11 @@ module.exports = {
           filename: 'assets/images/[hash][ext]',
         },
       },
+      // css
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
 };

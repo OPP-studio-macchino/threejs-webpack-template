@@ -25,3 +25,7 @@ index.js>>>>>>console.log('webpack')
 ctrl + c
 npm run dev
 npm run start
+
+### npm i three
+
+### npm i -D style-loader css-loader
